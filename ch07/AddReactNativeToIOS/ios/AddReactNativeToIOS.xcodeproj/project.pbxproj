@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF31FE9A1E542FD2004DA5C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31FE991E542FD2004DA5C3 /* main.m */; };
+		FF31FE9D1E542FD2004DA5C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31FE9C1E542FD2004DA5C3 /* AppDelegate.m */; };
+		FF31FEA01E542FD2004DA5C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31FE9F1E542FD2004DA5C3 /* ViewController.m */; };
+		FF31FEA31E542FD2004DA5C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF31FEA11E542FD2004DA5C3 /* Main.storyboard */; };
+		FF31FEA51E542FD2004DA5C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF31FEA41E542FD2004DA5C3 /* Assets.xcassets */; };
+		FF31FEA81E542FD2004DA5C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF31FEA61E542FD2004DA5C3 /* LaunchScreen.storyboard */; };
+		FF31FEB31E542FD2004DA5C3 /* AddReactNativeToIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31FEB21E542FD2004DA5C3 /* AddReactNativeToIOSTests.m */; };
+		FF31FEBE1E542FD2004DA5C3 /* AddReactNativeToIOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF31FEBD1E542FD2004DA5C3 /* AddReactNativeToIOSUITests.m */; };
+		FF49ED351E553F7900E66DA7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF49ED261E553EBE00E66DA7 /* libReact.a */; };
+		FF49ED511E55405900E66DA7 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF49ED3C1E55402E00E66DA7 /* libRCTNetwork.a */; };
+		FF49ED521E55405900E66DA7 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF49ED451E55404100E66DA7 /* libRCTText.a */; };
+		FF49ED531E55405900E66DA7 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF49ED4E1E55405100E66DA7 /* libRCTWebSocket.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF31FEAF1E542FD2004DA5C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF31FE8D1E542FD2004DA5C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF31FE941E542FD2004DA5C3;
+			remoteInfo = AddReactNativeToIOS;
+		};
+		FF31FEBA1E542FD2004DA5C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF31FE8D1E542FD2004DA5C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF31FE941E542FD2004DA5C3;
+			remoteInfo = AddReactNativeToIOS;
+		};
+		FF49ED251E553EBE00E66DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF49ED1A1E553EBE00E66DA7 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		FF49ED271E553EBE00E66DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF49ED1A1E553EBE00E66DA7 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
+			remoteInfo = "React-tvOS";
+		};
+		FF49ED291E553EBE00E66DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF49ED1A1E553EBE00E66DA7 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C059A1DE3340900C268FA;
+			remoteInfo = yoga;
+		};
+		FF49ED2B1E553EBE00E66DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF49ED1A1E553EBE00E66DA7 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C06751DE3340C00C268FA;
+			remoteInfo = "yoga-tvOS";
+		};
+		FF49ED2D1E553EBE00E66DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF49ED1A1E553EBE00E66DA7 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9251DE5FBEC00167DC4;
+			remoteInfo = cxxreact;
+		};
+		FF49ED2F1E553EBE00E66DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF49ED1A1E553EBE00E66DA7 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
+			remoteInfo = "cxxreact-tvOS";
+		};
+		FF49ED311E553EBE00E66DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF49ED1A1E553EBE00E66DA7 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD90B1DE5FBD600167DC4;
+			remoteInfo = jschelpers;
+		};
+		FF49ED331E553EBE00E66DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF49ED1A1E553EBE00E66DA7 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
+			remoteInfo = "jschelpers-tvOS";
+		};
+		FF49ED3B1E55402E00E66DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF49ED361E55402E00E66DA7 /* RCTNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B511DB1A9E6C8500147676;
+			remoteInfo = RCTNetwork;
+		};
+		FF49ED3D1E55402E00E66DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF49ED361E55402E00E66DA7 /* RCTNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28541D9B044C00D4039D;
+			remoteInfo = "RCTNetwork-tvOS";
+		};
+		FF49ED441E55404100E66DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF49ED3F1E55404100E66DA7 /* RCTText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
+			remoteInfo = RCTText;
+		};
+		FF49ED461E55404100E66DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF49ED3F1E55404100E66DA7 /* RCTText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A287B1D9B048500D4039D;
+			remoteInfo = "RCTText-tvOS";
+		};
+		FF49ED4D1E55405100E66DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF49ED481E55405100E66DA7 /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C86DF461ADF2C930047B81A;
+			remoteInfo = RCTWebSocket;
+		};
+		FF49ED4F1E55405100E66DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF49ED481E55405100E66DA7 /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28881D9B049200D4039D;
+			remoteInfo = "RCTWebSocket-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF31FE951E542FD2004DA5C3 /* AddReactNativeToIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddReactNativeToIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF31FE991E542FD2004DA5C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF31FE9B1E542FD2004DA5C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF31FE9C1E542FD2004DA5C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF31FE9E1E542FD2004DA5C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF31FE9F1E542FD2004DA5C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF31FEA21E542FD2004DA5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF31FEA41E542FD2004DA5C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF31FEA71E542FD2004DA5C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF31FEA91E542FD2004DA5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF31FEAE1E542FD2004DA5C3 /* AddReactNativeToIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddReactNativeToIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF31FEB21E542FD2004DA5C3 /* AddReactNativeToIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddReactNativeToIOSTests.m; sourceTree = "<group>"; };
+		FF31FEB41E542FD2004DA5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF31FEB91E542FD2004DA5C3 /* AddReactNativeToIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddReactNativeToIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF31FEBD1E542FD2004DA5C3 /* AddReactNativeToIOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddReactNativeToIOSUITests.m; sourceTree = "<group>"; };
+		FF31FEBF1E542FD2004DA5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF49ED1A1E553EBE00E66DA7 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		FF49ED361E55402E00E66DA7 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
+		FF49ED3F1E55404100E66DA7 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		FF49ED481E55405100E66DA7 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF31FE921E542FD2004DA5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF49ED511E55405900E66DA7 /* libRCTNetwork.a in Frameworks */,
+				FF49ED521E55405900E66DA7 /* libRCTText.a in Frameworks */,
+				FF49ED531E55405900E66DA7 /* libRCTWebSocket.a in Frameworks */,
+				FF49ED351E553F7900E66DA7 /* libReact.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF31FEAB1E542FD2004DA5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF31FEB61E542FD2004DA5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF31FE8C1E542FD2004DA5C3 = {
+			isa = PBXGroup;
+			children = (
+				FF31FE971E542FD2004DA5C3 /* AddReactNativeToIOS */,
+				FF31FEB11E542FD2004DA5C3 /* AddReactNativeToIOSTests */,
+				FF31FEBC1E542FD2004DA5C3 /* AddReactNativeToIOSUITests */,
+				FF31FE961E542FD2004DA5C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF31FE961E542FD2004DA5C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF31FE951E542FD2004DA5C3 /* AddReactNativeToIOS.app */,
+				FF31FEAE1E542FD2004DA5C3 /* AddReactNativeToIOSTests.xctest */,
+				FF31FEB91E542FD2004DA5C3 /* AddReactNativeToIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF31FE971E542FD2004DA5C3 /* AddReactNativeToIOS */ = {
+			isa = PBXGroup;
+			children = (
+				FF49ED481E55405100E66DA7 /* RCTWebSocket.xcodeproj */,
+				FF49ED3F1E55404100E66DA7 /* RCTText.xcodeproj */,
+				FF49ED361E55402E00E66DA7 /* RCTNetwork.xcodeproj */,
+				FF49ED1A1E553EBE00E66DA7 /* React.xcodeproj */,
+				FF31FE9B1E542FD2004DA5C3 /* AppDelegate.h */,
+				FF31FE9C1E542FD2004DA5C3 /* AppDelegate.m */,
+				FF31FE9E1E542FD2004DA5C3 /* ViewController.h */,
+				FF31FE9F1E542FD2004DA5C3 /* ViewController.m */,
+				FF31FEA11E542FD2004DA5C3 /* Main.storyboard */,
+				FF31FEA41E542FD2004DA5C3 /* Assets.xcassets */,
+				FF31FEA61E542FD2004DA5C3 /* LaunchScreen.storyboard */,
+				FF31FEA91E542FD2004DA5C3 /* Info.plist */,
+				FF31FE981E542FD2004DA5C3 /* Supporting Files */,
+			);
+			path = AddReactNativeToIOS;
+			sourceTree = "<group>";
+		};
+		FF31FE981E542FD2004DA5C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF31FE991E542FD2004DA5C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF31FEB11E542FD2004DA5C3 /* AddReactNativeToIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF31FEB21E542FD2004DA5C3 /* AddReactNativeToIOSTests.m */,
+				FF31FEB41E542FD2004DA5C3 /* Info.plist */,
+			);
+			path = AddReactNativeToIOSTests;
+			sourceTree = "<group>";
+		};
+		FF31FEBC1E542FD2004DA5C3 /* AddReactNativeToIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF31FEBD1E542FD2004DA5C3 /* AddReactNativeToIOSUITests.m */,
+				FF31FEBF1E542FD2004DA5C3 /* Info.plist */,
+			);
+			path = AddReactNativeToIOSUITests;
+			sourceTree = "<group>";
+		};
+		FF49ED1B1E553EBE00E66DA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF49ED261E553EBE00E66DA7 /* libReact.a */,
+				FF49ED281E553EBE00E66DA7 /* libReact.a */,
+				FF49ED2A1E553EBE00E66DA7 /* libyoga.a */,
+				FF49ED2C1E553EBE00E66DA7 /* libyoga.a */,
+				FF49ED2E1E553EBE00E66DA7 /* libcxxreact.a */,
+				FF49ED301E553EBE00E66DA7 /* libcxxreact.a */,
+				FF49ED321E553EBE00E66DA7 /* libjschelpers.a */,
+				FF49ED341E553EBE00E66DA7 /* libjschelpers.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF49ED371E55402E00E66DA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF49ED3C1E55402E00E66DA7 /* libRCTNetwork.a */,
+				FF49ED3E1E55402E00E66DA7 /* libRCTNetwork-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF49ED401E55404100E66DA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF49ED451E55404100E66DA7 /* libRCTText.a */,
+				FF49ED471E55404100E66DA7 /* libRCTText-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF49ED491E55405100E66DA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF49ED4E1E55405100E66DA7 /* libRCTWebSocket.a */,
+				FF49ED501E55405100E66DA7 /* libRCTWebSocket-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF31FE941E542FD2004DA5C3 /* AddReactNativeToIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF31FEC21E542FD2004DA5C3 /* Build configuration list for PBXNativeTarget "AddReactNativeToIOS" */;
+			buildPhases = (
+				FF31FE911E542FD2004DA5C3 /* Sources */,
+				FF31FE921E542FD2004DA5C3 /* Frameworks */,
+				FF31FE931E542FD2004DA5C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddReactNativeToIOS;
+			productName = AddReactNativeToIOS;
+			productReference = FF31FE951E542FD2004DA5C3 /* AddReactNativeToIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF31FEAD1E542FD2004DA5C3 /* AddReactNativeToIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF31FEC51E542FD2004DA5C3 /* Build configuration list for PBXNativeTarget "AddReactNativeToIOSTests" */;
+			buildPhases = (
+				FF31FEAA1E542FD2004DA5C3 /* Sources */,
+				FF31FEAB1E542FD2004DA5C3 /* Frameworks */,
+				FF31FEAC1E542FD2004DA5C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF31FEB01E542FD2004DA5C3 /* PBXTargetDependency */,
+			);
+			name = AddReactNativeToIOSTests;
+			productName = AddReactNativeToIOSTests;
+			productReference = FF31FEAE1E542FD2004DA5C3 /* AddReactNativeToIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF31FEB81E542FD2004DA5C3 /* AddReactNativeToIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF31FEC81E542FD2004DA5C3 /* Build configuration list for PBXNativeTarget "AddReactNativeToIOSUITests" */;
+			buildPhases = (
+				FF31FEB51E542FD2004DA5C3 /* Sources */,
+				FF31FEB61E542FD2004DA5C3 /* Frameworks */,
+				FF31FEB71E542FD2004DA5C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF31FEBB1E542FD2004DA5C3 /* PBXTargetDependency */,
+			);
+			name = AddReactNativeToIOSUITests;
+			productName = AddReactNativeToIOSUITests;
+			productReference = FF31FEB91E542FD2004DA5C3 /* AddReactNativeToIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF31FE8D1E542FD2004DA5C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = com.learnreactnative;
+				TargetAttributes = {
+					FF31FE941E542FD2004DA5C3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					FF31FEAD1E542FD2004DA5C3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF31FE941E542FD2004DA5C3;
+					};
+					FF31FEB81E542FD2004DA5C3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF31FE941E542FD2004DA5C3;
+					};
+				};
+			};
+			buildConfigurationList = FF31FE901E542FD2004DA5C3 /* Build configuration list for PBXProject "AddReactNativeToIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF31FE8C1E542FD2004DA5C3;
+			productRefGroup = FF31FE961E542FD2004DA5C3 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FF49ED371E55402E00E66DA7 /* Products */;
+					ProjectRef = FF49ED361E55402E00E66DA7 /* RCTNetwork.xcodeproj */;
+				},
+				{
+					ProductGroup = FF49ED401E55404100E66DA7 /* Products */;
+					ProjectRef = FF49ED3F1E55404100E66DA7 /* RCTText.xcodeproj */;
+				},
+				{
+					ProductGroup = FF49ED491E55405100E66DA7 /* Products */;
+					ProjectRef = FF49ED481E55405100E66DA7 /* RCTWebSocket.xcodeproj */;
+				},
+				{
+					ProductGroup = FF49ED1B1E553EBE00E66DA7 /* Products */;
+					ProjectRef = FF49ED1A1E553EBE00E66DA7 /* React.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FF31FE941E542FD2004DA5C3 /* AddReactNativeToIOS */,
+				FF31FEAD1E542FD2004DA5C3 /* AddReactNativeToIOSTests */,
+				FF31FEB81E542FD2004DA5C3 /* AddReactNativeToIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FF49ED261E553EBE00E66DA7 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = FF49ED251E553EBE00E66DA7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF49ED281E553EBE00E66DA7 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = FF49ED271E553EBE00E66DA7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF49ED2A1E553EBE00E66DA7 /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = FF49ED291E553EBE00E66DA7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF49ED2C1E553EBE00E66DA7 /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = FF49ED2B1E553EBE00E66DA7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF49ED2E1E553EBE00E66DA7 /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = FF49ED2D1E553EBE00E66DA7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF49ED301E553EBE00E66DA7 /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = FF49ED2F1E553EBE00E66DA7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF49ED321E553EBE00E66DA7 /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = FF49ED311E553EBE00E66DA7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF49ED341E553EBE00E66DA7 /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = FF49ED331E553EBE00E66DA7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF49ED3C1E55402E00E66DA7 /* libRCTNetwork.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTNetwork.a;
+			remoteRef = FF49ED3B1E55402E00E66DA7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF49ED3E1E55402E00E66DA7 /* libRCTNetwork-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTNetwork-tvOS.a";
+			remoteRef = FF49ED3D1E55402E00E66DA7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF49ED451E55404100E66DA7 /* libRCTText.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTText.a;
+			remoteRef = FF49ED441E55404100E66DA7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF49ED471E55404100E66DA7 /* libRCTText-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTText-tvOS.a";
+			remoteRef = FF49ED461E55404100E66DA7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF49ED4E1E55405100E66DA7 /* libRCTWebSocket.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTWebSocket.a;
+			remoteRef = FF49ED4D1E55405100E66DA7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF49ED501E55405100E66DA7 /* libRCTWebSocket-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTWebSocket-tvOS.a";
+			remoteRef = FF49ED4F1E55405100E66DA7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF31FE931E542FD2004DA5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF31FEA81E542FD2004DA5C3 /* LaunchScreen.storyboard in Resources */,
+				FF31FEA51E542FD2004DA5C3 /* Assets.xcassets in Resources */,
+				FF31FEA31E542FD2004DA5C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF31FEAC1E542FD2004DA5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF31FEB71E542FD2004DA5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF31FE911E542FD2004DA5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF31FEA01E542FD2004DA5C3 /* ViewController.m in Sources */,
+				FF31FE9D1E542FD2004DA5C3 /* AppDelegate.m in Sources */,
+				FF31FE9A1E542FD2004DA5C3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF31FEAA1E542FD2004DA5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF31FEB31E542FD2004DA5C3 /* AddReactNativeToIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF31FEB51E542FD2004DA5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF31FEBE1E542FD2004DA5C3 /* AddReactNativeToIOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF31FEB01E542FD2004DA5C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF31FE941E542FD2004DA5C3 /* AddReactNativeToIOS */;
+			targetProxy = FF31FEAF1E542FD2004DA5C3 /* PBXContainerItemProxy */;
+		};
+		FF31FEBB1E542FD2004DA5C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF31FE941E542FD2004DA5C3 /* AddReactNativeToIOS */;
+			targetProxy = FF31FEBA1E542FD2004DA5C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF31FEA11E542FD2004DA5C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF31FEA21E542FD2004DA5C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF31FEA61E542FD2004DA5C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF31FEA71E542FD2004DA5C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF31FEC01E542FD2004DA5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF31FEC11E542FD2004DA5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF31FEC31E542FD2004DA5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/**";
+				INFOPLIST_FILE = AddReactNativeToIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"stdc++\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = learnreactnative.AddReactNativeToIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF31FEC41E542FD2004DA5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/**";
+				INFOPLIST_FILE = AddReactNativeToIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"stdc++\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = learnreactnative.AddReactNativeToIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF31FEC61E542FD2004DA5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AddReactNativeToIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = learnreactnative.AddReactNativeToIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddReactNativeToIOS.app/AddReactNativeToIOS";
+			};
+			name = Debug;
+		};
+		FF31FEC71E542FD2004DA5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AddReactNativeToIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = learnreactnative.AddReactNativeToIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddReactNativeToIOS.app/AddReactNativeToIOS";
+			};
+			name = Release;
+		};
+		FF31FEC91E542FD2004DA5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AddReactNativeToIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = learnreactnative.AddReactNativeToIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AddReactNativeToIOS;
+			};
+			name = Debug;
+		};
+		FF31FECA1E542FD2004DA5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AddReactNativeToIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = learnreactnative.AddReactNativeToIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AddReactNativeToIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF31FE901E542FD2004DA5C3 /* Build configuration list for PBXProject "AddReactNativeToIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF31FEC01E542FD2004DA5C3 /* Debug */,
+				FF31FEC11E542FD2004DA5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF31FEC21E542FD2004DA5C3 /* Build configuration list for PBXNativeTarget "AddReactNativeToIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF31FEC31E542FD2004DA5C3 /* Debug */,
+				FF31FEC41E542FD2004DA5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF31FEC51E542FD2004DA5C3 /* Build configuration list for PBXNativeTarget "AddReactNativeToIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF31FEC61E542FD2004DA5C3 /* Debug */,
+				FF31FEC71E542FD2004DA5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF31FEC81E542FD2004DA5C3 /* Build configuration list for PBXNativeTarget "AddReactNativeToIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF31FEC91E542FD2004DA5C3 /* Debug */,
+				FF31FECA1E542FD2004DA5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF31FE8D1E542FD2004DA5C3 /* Project object */;
+}
